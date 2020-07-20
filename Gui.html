@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic-tak-toe</title>
+	<style>
+		.square{
+			background: #00FFFF;
+			border-radius: 25px;
+			margin: 50px;
+			padding: 50px;
+		}
+		body{
+			color:#545454;
+			justify-content: center;
+			display: flex;
+			font-family: sans-serif;
+			
+		}
+		.head{
+			text-align: center;
+		}
+		.grid{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			grid-template-rows: repeat(3,1fr);
+			grid-gap: 15px;
+			background: #0DA192;
+		}
+		.cell {
+  			background-color:#00FFFF;
+  			text-align: center;
+  			padding: 20px 0;
+  			font-size: 30px;
+  			cursor: pointer;
+}
+
+	</style>
+</head>
+
+<body>
+	<div class="square">
+		<h2 class="head">Tic Tak Toe</h2>
+		<div class="grid">
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
